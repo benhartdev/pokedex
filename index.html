@@ -1,14 +1,50 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pokédex</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
-    <script src='main.js'></script>
+   
 </head>
 <body>
-    
+    <div class="pokedex">
+        <!-- Partie gauche -->
+        <div class="left-panel">
+            <div class="screen">
+                <h1>POKEMON</h1>
+                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png" alt="Pikachu">
+            </div>
+            <div class="buttons">
+                <div class="button"></div>
+                <div class="button"></div>
+                <div class="button"></div>
+                <div class="button"></div>
+            </div>
+            <div class="screen-name"></div>
+            <div class="toggle"></div>
+        </div>
+
+        <!-- Partie droite -->
+        <div class="right-panel">
+           
+            <div class="controls">
+                <button>Bouton Bleu</button>
+                <button>Nom pokemon</button>
+            </div>
+             <div class="description">
+                <ul>
+                    <li>PV<span>90</span></li>
+                    <li>Attaque<span>95</span></li>
+                    <li>Defense<span>110</span></li>
+                    <li>Attaque spéciale<span>120</span></li>
+                    <li>Defense spéciale<span>455</span></li>
+                    <li>Vitesse <span>105</span></li>
+                    
+                </ul>
+
+            </div>
+            
+        </div>
+    </div>
 </body>
 </html>
